@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.sass" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="header__content" href="#">
+          <img src="./assets/img/logo.png" alt="logo" class="header__logo" />
+          <h2 class="header__title">Сократика</h2>
+        </a>
+      </div>
+    </header>
+    <section class="introduce">
+      <div class="container">
+        <div class="introduce__wrapper">
+          <div class="introduce__left">
+            <p class="introduce__greetings">ДОБРО ПОЖАЛОВАТЬ</p>
+            <h1 class="introduce__title">
+              Создавай презентации по школьной программе вместе с
+              <span class="text-blue">Сократика</span>
+            </h1>
+            <p class="introduce__subtitle">
+              Используя искусственный интеллект, ты за считанные секунды
+              получишь идеальную презентацию, которая подойдёт для проведения
+              уроков в школе на любую тему
+            </p>
+            <button class="introduce__start">Начать</button>
+          </div>
+          <img
+            class="introduce__children"
+            src="./assets/img/children.png"
+            alt="children"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="popup hidden">
+      <div class="popup__body">
+        <div class="popup__content">
+          <img class="popup__img" src="./assets/img/popup.png" alt="popup" />
+          <button class="popup__close">X</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
